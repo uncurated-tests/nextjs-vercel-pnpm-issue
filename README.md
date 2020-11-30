@@ -4,7 +4,9 @@ Demo of an issue deploying a next@10.0.3 project to Vercel using pnpm.
 
 ### The issue
 
-After switching to pnpm by running `pnpm install` to generate [pnpm-lock.yaml](pnpm-lock.yaml) and setting the Vercel project's **install command** to `npx pnpm install`, the Vercel build will fail with:
+Running pnpm locally with `pnpm install` generates [pnpm-lock.yaml](pnpm-lock.yaml).
+
+However, setting Vercel project's **Install Command** to `npx pnpm install`, the Vercel build will fail with:
 
 ```
 17:33:50.191  	Installing build runtime...
